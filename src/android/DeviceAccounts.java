@@ -71,7 +71,7 @@ public class DeviceAccounts extends CordovaPlugin {
     return ret;
   }
 
-  private JSONArray formatResult(List<Account> accounts){
+  private JSONArray formatResult(List<Account> accounts) throws JSONException {
     JSONArray jsonAccounts = new JSONArray();
     for (Account a : accounts) {
       JSONObject obj = new JSONObject();

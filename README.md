@@ -15,7 +15,7 @@ cordova plugin add https://github.com/loicknuchel/cordova-device-accounts.git
 - cordova.plugins.DeviceAccounts.get(onSuccess, onFail)
 - cordova.plugins.DeviceAccounts.getByType(type, onSuccess, onFail)
 
-### Example
+## Example
 
 ````
 cordova.plugins.DeviceAccounts.get(function(accounts){
