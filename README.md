@@ -1,4 +1,4 @@
-# Cordova plugin to get device accounts
+# cordova-device-accounts
 
 Cordova plugin to get the device accounts on Android
 
@@ -19,7 +19,7 @@ cordova plugin add https://github.com/loicknuchel/cordova-device-accounts.git
 
 ## Example
 
-````
+```
 cordova.plugins.DeviceAccounts.get(function(accounts){
   // accounts is an array with objects containing name and type attributes
   console.log('account registered on this device:', accounts);
