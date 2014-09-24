@@ -12,8 +12,10 @@ cordova plugin add https://github.com/loicknuchel/cordova-device-accounts.git
 
 ## Methods
 
-- cordova.plugins.DeviceAccounts.get(onSuccess, onFail)
-- cordova.plugins.DeviceAccounts.getByType(type, onSuccess, onFail)
+- `plugins.DeviceAccounts.get(onSuccess, onFail)` : get all accounts registred on device
+- `plugins.DeviceAccounts.getByType(type, onSuccess, onFail)` : get all accounts registred on device for requested type
+- `plugins.DeviceAccounts.getEmails(onSuccess, onFail)` : get all emails registred on device (accounts with 'com.google' type)
+- `plugins.DeviceAccounts.getEmail(onSuccess, onFail)` : get the first email registred on device or undefined
 
 ## Example
 
