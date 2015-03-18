@@ -20,7 +20,7 @@ cordova plugin add https://github.com/loicknuchel/cordova-device-accounts.git
 ## Example
 
 ```javascript
-cordova.plugins.DeviceAccounts.get(function(accounts){
+window.plugins.DeviceAccounts.get(function(accounts){
   // accounts is an array with objects containing name and type attributes
   console.log('account registered on this device:', accounts);
 }, function(error){
