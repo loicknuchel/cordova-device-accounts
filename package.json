@@ -1,0 +1,19 @@
+{
+  "name": "cordova-device-accounts",
+  "version": "1.0.0",
+  "description": "Cordova plugin to get the device accounts on Android",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loicknuchel/cordova-device-accounts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loicknuchel/cordova-device-accounts/issues"
+  },
+  "homepage": "https://github.com/loicknuchel/cordova-device-accounts#readme"
+}
